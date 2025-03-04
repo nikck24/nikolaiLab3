@@ -1,5 +1,4 @@
-mkdir -p .github/workflows
-echo "name: Maven Build & Test
+name: Maven Build & Test
 
 on: [push]
 
@@ -23,4 +22,3 @@ jobs:
 
       - name: Run Tests
         run: mvn test
-" > .github/workflows/maven.yml
